@@ -1,5 +1,14 @@
 # @medusajs/core-flows
 
+## 2.13.4
+
+### Patch Changes
+
+- [#14836](https://github.com/medusajs/medusa/pull/14836) [`fea64dd5d70a5e5fe4e1ea201bbe8a4329ce8703`](https://github.com/medusajs/medusa/commit/fea64dd5d70a5e5fe4e1ea201bbe8a4329ce8703) Thanks [@NicolasGorga](https://github.com/NicolasGorga)! - fix(core-flows): ensure reason ids is an array in `validateReturnReasons` util
+
+- Updated dependencies []:
+  - @medusajs/framework@2.13.4
+
 ## 2.13.3
 
 ### Patch Changes
