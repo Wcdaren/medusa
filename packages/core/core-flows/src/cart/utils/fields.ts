@@ -6,9 +6,11 @@ export const cartFieldsForRefreshSteps = [
   "currency_code",
   "quantity",
   "subtotal",
+  "original_item_total",
   "item_total",
   "locale",
   "total",
+  "original_item_subtotal",
   "item_subtotal",
   "shipping_subtotal",
   "region_id",
@@ -23,6 +25,7 @@ export const cartFieldsForRefreshSteps = [
   "items.product.categories.id",
   "items.product.tags.id",
   "items.product.type_id",
+  "items.product.weight",
   "items.variant.id",
   "items.variant.product.id",
   "items.variant.weight",
@@ -142,6 +145,7 @@ export const cartFieldsForPricingContext = [
   "shipping_address.postal_code",
   "item_total",
   "total",
+  "locale",
   "customer.id",
   "email",
   "customer.groups.id",
@@ -188,6 +192,7 @@ export const productVariantsFields = [
 // ensure that at least these fields are present when fetching cart for caluclating shipping options prices
 export const cartFieldsForCalculateShippingOptionsPrices = [
   "id",
+  "locale",
   "items.*",
   "items.variant.id",
   "items.variant.product.id",
@@ -200,5 +205,6 @@ export const cartFieldsForCalculateShippingOptionsPrices = [
   "items.product.collection_id",
   "items.product.categories.id",
   "items.product.tags.id",
+  "items.product.weight",
   "shipping_address.*",
 ]

@@ -133,6 +133,15 @@ const generatedgeneratedToolsSidebarSidebar = {
                   "title": "telemetry",
                   "description": "",
                   "children": []
+                },
+                {
+                  "loaded": true,
+                  "isPathHref": true,
+                  "type": "link",
+                  "path": "/medusa-cli/commands/codemod",
+                  "title": "codemod",
+                  "description": "",
+                  "children": []
                 }
               ]
             }
@@ -827,6 +836,14 @@ const generatedgeneratedToolsSidebarSidebar = {
                   "type": "link",
                   "path": "/nextjs-starter/guides/revalidate-cache",
                   "title": "Revalidate Cache",
+                  "children": []
+                },
+                {
+                  "loaded": true,
+                  "isPathHref": true,
+                  "type": "link",
+                  "path": "/nextjs-starter/guides/remove-country-code",
+                  "title": "Remove Country Code from URLs",
                   "children": []
                 }
               ]
